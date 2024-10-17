@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <!-- Back button (ImageView) -->
+    <ImageView
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_back_arrow"
+        android:contentDescription="Back button"
+        android:layout_gravity="start"
+        android:layout_marginTop="16dp" />
+
+    <!-- Vote Image (Placeholder) -->
+    <ImageView
+        android:id="@+id/vote_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/vote_image_placeholder"
+    <!-- Replace with your image source -->
+    android:contentDescription="Vote Image"
+    android:layout_marginTop="32dp" />
+
+    <!-- Success Message Heading -->
+    <TextView
+        android:id="@+id/success_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Admin Successfully Registered"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="24dp" />
+
+    <!-- Success Subtext -->
+    <TextView
+        android:id="@+id/success_subtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You have successfully registered in our app and start election campaign."
+        android:textSize="14sp"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:layout_marginTop="8dp"
+        android:layout_marginHorizontal="16dp" />
+
+    <!-- Start Button -->
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:layout_marginTop="32dp" />
+
+</LinearLayout><?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:gravity="center_horizontal"
+android:padding="16dp"
+android:background="@android:color/white">
+
+<!-- Back button (ImageView) -->
+<ImageView
+    android:id="@+id/back_button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/ic_back_arrow"
+    android:contentDescription="Back button"
+    android:layout_gravity="start"
+    android:layout_marginTop="16dp" />
+
+<!-- Vote Image (Placeholder) -->
+<ImageView
+    android:id="@+id/vote_image"
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    android:src="@drawable/vote_image_placeholder" <!-- Replace with your image source -->
+android:contentDescription="Vote Image"
+android:layout_marginTop="32dp" />
+
+<!-- Success Message Heading -->
+<TextView
+    android:id="@+id/success_heading"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Admin Successfully Registered"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:textColor="@android:color/black"
+    android:layout_marginTop="24dp" />
+
+<!-- Success Subtext -->
+<TextView
+    android:id="@+id/success_subtext"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="You have successfully registered in our app and start election campaign."
+    android:textSize="14sp"
+    android:textColor="@android:color/black"
+    android:gravity="center"
+    android:layout_marginTop="8dp"
+    android:layout_marginHorizontal="16dp" />
+
+<!-- Start Button -->
+<Button
+    android:id="@+id/start_button"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Start"
+    android:textColor="@android:color/white"
+    android:backgroundTint="@android:color/holo_green_dark"
+    android:layout_marginTop="32dp" />
+
+</LinearLayout>
